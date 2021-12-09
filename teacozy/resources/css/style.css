@@ -1,0 +1,146 @@
+/**{
+    border: solid red;
+}*/
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: white;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    box-sizing: border-box;
+}
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+    
+}
+
+header nav {
+    height: 3.13rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    
+}
+
+#logo {
+    height: 2.27rem;
+    margin-left: 0.45rem;
+
+}
+
+nav ul {
+    text-decoration: underline;
+    display: flex;
+    list-style: none; 
+}
+
+nav li {
+    margin: 0.5rem;
+}
+
+nav a {
+    color: white;
+}
+
+#header-content {
+    background-image: url('../images/background.webp');
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 54.54rem;
+    height: 31.81rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+#mission {
+    background-color: black;
+    position: relative;
+    top: 40%;
+}
+
+#mission h2 {
+    padding-top: 0.3rem;
+}
+
+#mission h4 {
+    padding-bottom: 0.3rem;
+}
+
+#main-content {
+    width: 100%;
+}
+
+#tea-container {
+    width: 45.45rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+
+.tea {
+    display: inline-flex;
+}
+
+.tea img {
+    height: 9.09rem;
+    width: 13.63rem;
+    margin-right: 0.8rem;
+}
+
+#locations-title {
+    display: flex;
+    justify-content: center;
+}
+
+#locations-content {
+    background-image: url('../images/locations.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 22.72rem;
+    width: 54.54rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    
+}
+
+.locations-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.locations {
+    /*display: inline-block;*/
+    width: 13.63rem;
+    height: 13.63rem;
+    margin-right: 1.8rem;
+    opacity: 1;
+    background-color: black;
+}
+
+.locations p {
+    line-height: 3.2;
+}
+
+#footer-content {
+    height: 9rem;
+}
+
+#footer-content h5 {
+    line-height: 3rem;
+}
+
+#copyright {
+    text-align: left;
+    padding-left: 1.1rem;
+
+
+}
