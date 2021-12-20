@@ -20,6 +20,7 @@ header {
 
 h1 {
     color: hsl(0, 0%, 25%);
+    font-size: 3rem;
 }
 
 p {
@@ -89,7 +90,6 @@ header .logo {
 }
 
 .sign-up-content h1{
-    font-size: 3rem;
     width: 60%;
 }
 
@@ -114,3 +114,44 @@ header .logo {
     text-decoration: none;
 }
 
+.information-section {
+    display: flex;
+    background-color: white;
+}
+
+.information-left .img-container {
+    margin: 2rem 1.5rem;
+    width: 60%;
+    overflow: hidden;
+}
+
+.information-left .img-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.information-left .information-content h1 {
+    margin-bottom: 1.5rem;
+}
+
+.information-left .information-content span {
+    padding-bottom: 2rem;
+    color: hsl(0, 0%, 5%)
+}
+
+
+.information-right {
+    width: 40%;
+}
+
+.imormation-box {
+    width: 65%;
+    display: flex;
+}
+
+.information-box .img-container img {
+    width: 35%;
+    height: auto;
+}
