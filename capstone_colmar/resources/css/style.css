@@ -37,9 +37,12 @@ nav li {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
 nav a {
     color: black;
-    text-decoration: none;
+    
 }
 
 header .logo {
@@ -129,7 +132,6 @@ header .logo {
 
 .information-left .img-container {
     margin: 2rem 1.5rem;
-    /*width: 60%;*/
     overflow: hidden;
 }
 
@@ -153,17 +155,29 @@ header .logo {
 }
 
 .information-right {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .information-box {
     display: flex;
+    align-items: center;
 }
 
 .information-box .img-container {
-    padding: 1rem;
+    padding:1rem;
+    width: 35%;
 }
 
 .information-box .information-content {
     width: 65%;
+}
+
+.information-box .img-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#guest-lecture {
+    background-color: hsl(0, 0%, 85%);
 }
