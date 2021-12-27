@@ -119,9 +119,17 @@ header .logo {
     background-color: white;
 }
 
+.information-content {
+    margin-left: 1.5rem;
+}
+
+.information-left{
+    width: 60%;
+}
+
 .information-left .img-container {
     margin: 2rem 1.5rem;
-    width: 60%;
+    /*width: 60%;*/
     overflow: hidden;
 }
 
@@ -131,6 +139,9 @@ header .logo {
     display: block;
 }
 
+.information-left .information-content {
+    width: 65%;
+}
 
 .information-left .information-content h1 {
     margin-bottom: 1.5rem;
@@ -141,17 +152,18 @@ header .logo {
     color: hsl(0, 0%, 5%)
 }
 
-
 .information-right {
-    width: 40%;
+    margin-top: 2rem;
 }
 
 .information-box {
-    width: 65%;
     display: flex;
 }
 
-.information-box .img-container img {
-    width: 35%;
-    height: auto;
+.information-box .img-container {
+    padding: 1rem;
+}
+
+.information-box .information-content {
+    width: 65%;
 }
