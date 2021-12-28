@@ -66,6 +66,7 @@ header .logo {
 .main-content {
     position: relative;
     top: 3.8rem;
+    margin-bottom: 6rem;
 }
 
 .sign-up {
@@ -226,4 +227,84 @@ header .logo {
 .learning-content h3 {
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
+}
+
+#thesis {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 0;
+}
+
+.thesisexhibit-section {
+    display: flex;
+}
+
+.thesisexhibit-left {
+    width: 60%;
+}
+
+.thesisexhibit-left .video-container {
+    margin: 2rem 1.5rem 1.5rem 1.5rem;
+    overflow: hidden;
+}
+
+.thesisexhibit-left .video-container video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.thesisexhibit-left .thesisexhibit-content {
+    /*margin-bottom: rem;*/
+    margin-left: 1.5rem;
+}
+
+.thesisexhibit-left .thesisexhibit-content h2 {
+    margin-bottom: 0.5rem;
+}
+
+.thesisexhibit-content {
+    width: 65%
+}
+
+.thesisexhibit-box {
+    display: flex;
+    align-items: center;
+}
+
+.thesisexhibit-box .img-container {
+    padding:1rem;
+    width: 35%;
+}
+
+
+.thesisexhibit-box .img-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#fisma {
+    background-color: hsl(0, 0%, 85%);
+    margin-top: 2rem;
+}
+
+footer {
+    border-top: 1px solid silver;
+    height: 6.25rem;
+}
+
+.footer-content {
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    font-size: 0.875rem;
+}
+
+.copyright {
+    float: left;
+}
+
+.terms-primacy {
+    float: right;
+    word-spacing: 0.4rem;
 }
