@@ -18,6 +18,14 @@ header {
     left: 0px;
 }
 
+header .mobile {
+    display: none;
+}
+
+.img-container-mobile{
+    display: none;
+}
+
 h1, h2 {
     color: hsl(0, 0%, 25%);
 }
@@ -126,6 +134,10 @@ header .logo {
     background-color: white;
 }
 
+.information-section a {
+    color:rgb(0, 119, 255);
+}
+
 .information-content {
     margin-left: 1.5rem;
 }
@@ -186,6 +198,7 @@ header .logo {
 #guest-lecture {
     background-color: hsl(0, 0%, 85%);
 }
+
 
 .learning-section {
     background-color: hsl(0, 0%, 93%);
@@ -307,4 +320,106 @@ footer {
 .terms-primacy {
     float: right;
     word-spacing: 0.4rem;
+}
+
+@media only screen and (max-width: 600px) {
+
+    header .logo {
+        display: none;
+    }
+    header .desktop {
+        display: none
+    }
+
+    header .mobile {
+        display: block;
+        width: 100%;
+    }
+
+    header .mobile ul {
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+    header .mobile li {
+        padding: 0;
+    }
+
+    .sign-up {
+        display: block;
+        width: 100%;
+    }
+
+    .sign-up .img-container {
+        width: 100%;
+        margin: 0;    
+    }
+
+    .sign-up .img-container img {
+        max-width: 100%;
+        display: block;
+        height: auto%;
+        margin: 0 auto:
+    }
+
+    .sign-up-content {
+        max-width: 100%;
+        margin-left: 1.5rem;
+    }
+
+    .sign-up-content h1 p {
+        width: 100%;
+    }
+
+    .sign-up-content h1 {
+        font-size: 2.1rem;
+        font-weight: 800;
+    }
+
+    .button {
+        margin: 0 auto;
+        width: 100%;
+        background-color: hsl(0, 0%, 65%);
+        margin-top: 1.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .information-left {
+        display: none;
+    }
+
+    .information-right {
+        display: block;
+        width: 100%;
+    }
+
+    .information-right .information-box {
+        display: block;
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+
+    .information-right .img-container {
+        display: none;
+    }
+
+    .img-container-mobile {
+        display: block;
+        width: 100%;
+    }
+
+    .img-container-mobile img {
+        max-width: 95%;
+        display: block;
+        height: auto%;
+        margin: 0 auto;
+    }
+
+    #guest-lecture {
+        background-color: white;
+    }
+
+
 }
