@@ -26,6 +26,14 @@ header .mobile {
     display: none;
 }
 
+.learning-mobile {
+    display: none;
+}
+
+.video-container-mobile {
+    display: none;
+}
+
 h1, h2 {
     color: hsl(0, 0%, 25%);
 }
@@ -341,6 +349,8 @@ footer {
         justify-content:space-around;
         align-items: center;
         width: 100%;
+        padding: 0;
+        margin: 0;
     }
 
     header .mobile li {
@@ -421,5 +431,71 @@ footer {
         background-color: white;
     }
 
+    .learning-box {
+        display: none;
+    }
 
+    .learning-section{
+        background-color: white;
+    }
+
+    .learning-section h1{
+        padding: 0;;
+
+    }
+
+    .learning-mobile {
+        width: 95%;
+        display: block;
+        background-color: hsl(0, 0%, 85%);
+        margin-bottom: 0.5rem;
+    }
+
+    .learning-mobile h2 {
+        margin-left: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .thesisexhibit-right {
+        display: none;
+    }
+
+    .thesisexhibit-content {
+        display: none;
+    }
+
+    .thesisexhibit-section {
+        display: block;
+    }
+
+    .thesisexhibit-left {
+       display: none;
+    }
+
+    .video-container-mobile {
+        display: block;
+        margin-bottom: 2rem;
+    }
+
+    .video-container-mobile video {
+        width: 100%;
+        display: block;
+        height: auto;
+        margin: 0 auto:
+    }
+
+    footer {
+        border-top: none;
+    }
+
+    .footer-content {
+        margin: 0;
+    }
+
+    .footer-content span {
+        clear: right;
+        padding-top: 4rem;
+    }
+   
 }
